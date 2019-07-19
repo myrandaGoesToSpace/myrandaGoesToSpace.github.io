@@ -1,9 +1,12 @@
-head{
+div{
 	font-family: "Noto Sans HK";
 	text-align: center;
+	background-color: #2d37f7;
+	color: white;
 }
 body{
-	font-family: "Noto Sans HK;
+	font-family: "Noto Sans HK";
+	text-align: center;
 }
 h1{
 	text-align: center;
