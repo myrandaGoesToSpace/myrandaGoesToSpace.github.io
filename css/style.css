@@ -2,18 +2,18 @@
 .sidenav{
 	height: 100%;
 	width: 160px;
-	position: fixed;
+	position: relative;
 
 	top: 0;
 	right: 0;
 	background-color: black;
 	overflow-x: hidden;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .sidenav a {
 	padding: 6px 8px 6px 16px;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 20px;
 	color: #818181;
 	display: block;
 }
