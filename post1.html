@@ -24,7 +24,9 @@
 </head>
 
 <body>
-
+	<!-- FB share button -->
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
@@ -54,18 +56,20 @@
     </div>
   </nav>
   
-   <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-  
-<h1>Welcome!</h1>
-            
-<span class="subheading">Read about my NASA experience.</span>
-          
-</div>
+          <div class="post-heading">
+            <h1>Welcome!</h1>
+            <h2 class="subheading">Read about my adventures at NASA</h2>
+            <span class="meta">Posted by
+              <a href="#">Myranda</a>
+              on <em>Date</em>, 2019</span>
+			  <div class="fb-share-button" data-href="https://myrandaGoesToSpace.github.io/post.html" data-layout="button" data-size="large" style="padding: 10px" ><a target="_blank" href="https://facebook.com/sharer/sharer.php? u=https://myrandaGoesToSpace.github.io/post.html" class="fb-xfbml-parse-ignore">Share</a></div>
+          </div>
         </div>
       </div>
     </div>
@@ -73,36 +77,33 @@
   
   <!-- Post Content -->
   <article>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <p>This is my blog where I will document my internship at NASA Glenn Research Center.</p>
-
-          <h2 class="section-heading"></h2>
-
-
-          <a href="#">
-            <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-          </a>
-          <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
+     <div class="container-fluid">
+        <div class="row">
+           
         </div>
-		<div class="col-auto">
-		<div class="container">
-		<div class="collapse navbar-collapse" id="sidenav">
-		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#sidenav" aria-controls="sidenav" aria-expanded="false" aria-label="Toggle navigation">
-            More Posts
-          <i class="fas fa-bars"></i>
-        </button>
-		  <div class="h-100 navbar-inverse navbar-right sidenav" id="sidenav">
-	        <a class="nav-link" href="post1.html">Welcome</a>
-	        <a class="nav-link" href="">Post 2</a>
-	        <a class="nav-link" href="">Post 3</a>
-		  </div>
+        <div class="row">
+            <div class="col-11">
+
+                <div class="content-section">
+                    <p>This is my blog where I will document my internship at NASA Glenn Research Center.</p>
+                </div>
+            </div>
+            <div class="col-auto">
+
+              <div class="sidebar-item">
+                <div class="make-me-sticky">
+                  <h3>More Posts</h3>
+				  <div class="h-100 navbar-right sidenav">
+					<a class="nav-link" href="post1.html">Welcome</a>
+					<a class="nav-link" href="">Post 2</a>
+					<a class="nav-link" href="">Post 3</a>
+				  </div>
+                </div>
+              </div>
+          
+
+            </div>
         </div>
-		</div>
-		</div>
-      </div>
     </div>
   </article>
 

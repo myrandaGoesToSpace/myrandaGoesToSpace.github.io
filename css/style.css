@@ -9,6 +9,7 @@
 	background-color: black;
 	overflow-x: hidden;
 	padding-top: 10px;
+	min-height: 500px;
 }
 .sidenav a {
 	padding: 6px 8px 6px 16px;
@@ -20,4 +21,31 @@
 .sidenav a:hover{
 	color: #f1f1f1;
 }
+.content-section {
+  min-height: 2000px;
+}
+.sidebar-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.make-me-sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    
+  padding: 0 15px;
+}
+.sidebar-item {
 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+.sidenav-title {
+	color: white;
+	background-color: black;
+}
