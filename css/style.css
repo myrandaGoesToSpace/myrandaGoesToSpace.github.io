@@ -57,7 +57,7 @@
 		"header"
 		"content";
 	}
-	.sidebar-section{
+	.sidebar-item{
 		grid-area: header;
 	}
 	.content-section{
