@@ -49,3 +49,19 @@
 	color: white;
 	background-color: black;
 }
+
+@media (max-width: 600px){
+	.article{
+		display: grid;
+		grid-template-areas:
+		"header"
+		"content";
+	}
+	.sidebar-section{
+		grid-area: header;
+	}
+	.content-section{
+		grid-area: content;
+	}
+		
+}
