@@ -58,9 +58,12 @@
 		"content";
 	}
 	.sidebar-item{
+		display: grid;
 		grid-area: header;
+		
 	}
 	.content-section{
+		display: grid;
 		grid-area: content;
 	}
 		
