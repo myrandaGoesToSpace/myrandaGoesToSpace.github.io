@@ -52,7 +52,7 @@
 	color: white;
 	background-color: black;
 }
-#bottom-nav{
+.bottom-nav{
 	visibility: hidden;
 	color: white;
 	background-color: black;
@@ -60,11 +60,18 @@
 	align-items: left;
 	
 }
+.bottom-nav a{
+	color: #818181;
+	
+}
+.bottom-nav a :hover {
+	color: #f1f1f1;
+}
 @media (max-width: 700px) {
-  #bottom-nav{
+  .bottom-nav{
 	  visibility: visible;
   }
   .sidebar-item, .sidenav, .sidebar-section{
-	  visiblity: hidden; !important
+	  display: none;
   }
 }
