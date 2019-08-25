@@ -29,6 +29,7 @@
   height: 100%;
   width: 100%;
 }
+/* can delete this in later versions */
 .make-me-sticky {
   position: -webkit-sticky;
 	position: sticky;
@@ -36,6 +37,8 @@
     
   padding: 0 15px;
 }
+/* */
+
 .sidebar-item {
 
 	position: absolute;
@@ -49,13 +52,19 @@
 	color: white;
 	background-color: black;
 }
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
+#bottom-nav{
+	visibility: hidden;
+	color: white;
+	background-color: black;
+	width: 100%;
+	align-items: left;
+	
+}
+@media (max-width: 700px) {
+  #bottom-nav{
+	  visibility: visible;
   }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
+  .sidebar-item, .sidenav, .sidebar-section{
+	  visiblity: hidden; !important
+  }
 }
