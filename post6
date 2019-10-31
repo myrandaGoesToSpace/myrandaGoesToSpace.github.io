@@ -89,18 +89,18 @@
  
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/mission.jpg')">
+  <header class="masthead" style="background-image: url('img/post-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>NASA Missions: Mars 2020 Rover</h1>
-            <h2 class="subheading">Red rover, red rover, send your names over</h2>
+            <h1>Halfway</h1>
+            <h2 class="subheading"></h2>
             <span class="meta">Posted by
               <a href="#">Myranda</a>
-              on <em>September 25</em>, 2019</span>
-			  <div class="fb-share-button" data-href="https://myrandaGoesToSpace.github.io/post.html" data-layout="button" data-size="large" style="padding: 10px" ><a target="_blank" href="https://facebook.com/sharer/sharer.php? u=https://myrandaGoesToSpace.github.io/post.html" class="fb-xfbml-parse-ignore">Share</a></div>
+              on <em>October 30</em>, 2019</span>
+			  <div class="fb-share-button" data-href="https://myrandaGoesToSpace.github.io/post6.html" data-layout="button" data-size="large" style="padding: 10px" ><a target="_blank" href="https://facebook.com/sharer/sharer.php? u=https://myrandaGoesToSpace.github.io/post.html" class="fb-xfbml-parse-ignore">Share</a></div>
 
           </div>
         </div>
@@ -129,32 +129,26 @@
             <div class="col-11">
 
                 <div class="content-section">
-                    <p>While NASA gears up for the mission to the moon and beyond, the space agency is also sending out another Mars Rover. Largely 
-based on the Curiosity Rover that has explored the Martian terrain since 2012, the new rover is a car-sized robotic science lab.
-The rover will test samples of Martian soil, capture pictures of the landscape, and even search for signs of ancient life on the 
-dusty planet. One new feature of this rover is its ability to package soil samples and cache them for pickup by later Mars missions.
-These samples could then be transported back to Earth for more specialized analysis. The new rover is scheduled to launch 
-from Earth in 2020 and land on the surface of Mars by February 2021. </p>
-			<figure class="figure">
-				<img src="img/Mars2020_rover.png" class="figure-img img-fluid rounded" alt="Mars 2020 Rover">
-				<figcaption class="figure-caption">Packed with cutting-edge equipment, this is one giant moving (roving?) science experiment. (NASA Photo)</figcaption>
-			</figure>
-
-<p>And you can go with it! NASA is offering everyone the opportunity
-to fly their names onboard with the Mars 2020 Rover! During its mission, the rover will carry a silicon chip containing the names
-of millions of aspiring space cadets. Those who <a href="https://mars.nasa.gov/participate/send-your-name/mars2020/">submit</a> 
-their names will even receive a boarding pass for the trip!</p>
-			<figure class="figure">
-				<img src="img/boarding-pass.jpg" class="figure-img img-fluid rounded" alt="Boarding pass to Mars">
-				<figcaption class="figure-caption">Get your frequent flyer points to Mars!</figcaption>
-			</figure>
-
-<p>NASA is not just accepting the names of virtual passengers - the rover needs a name, too! NASA has invited students from kindergarten through high 
-school to name the Mars 2020 Rover. If you are a K-12 student, submit your name idea along with a short (150 words) essay about why
-that name should be chosen. The winner will not only name the NASA rover but will also get to watch the rover launch from Cape Canaveral 
-in Florida. Submit those names <a href="https://mars.nasa.gov/mars2020/participate/name-the-rover/">here</a> before November 1st.</p>
-
-<p>Personally, I hope it's called Hindsight.</p>
+                    <p>I am officially halfway through my internship! What an adventure! To those that have
+stuck with me, thank you!</p>
+<p>Blog posts have been intermittent lately, mostly because NASA likes to keep me busy! Here's a snapshot 
+of what I've been up to lately.</p>
+<p>
+	<h2>Programming</h2>
+		<p>Exactly what I was hired to do! I have been hard at work creating applications for AR devices like the Magic Leap and zSpace
+	as well as the immersive CAVE! Each application is different, but they generally showcase a NASA mission or concept. We demonstrate
+	these apps during tours of the lab or outreach events.</p>
+		<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Myranda, one of the interns this fall semester has dedicated lots of her time creating applications for Magic Leap. She&#39;s done a fantastic job illustrating her thoughts and ideas thus far, and she will eventually use her 3D models during outreach! <a href="https://twitter.com/hashtag/MagicLeap?src=hash&amp;ref_src=twsrc%5Etfw">#MagicLeap</a> <a href="https://twitter.com/hashtag/NASAIntern?src=hash&amp;ref_src=twsrc%5Etfw">#NASAIntern</a> <a href="https://t.co/vjyd1wONIm">pic.twitter.com/vjyd1wONIm</a></p>&mdash; NASA GVIS Lab (@NASA_GVIS) <a href="https://twitter.com/NASA_GVIS/status/1181944562065035267?ref_src=twsrc%5Etfw">October 9, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<h2>Presenting</h2>
+		<p>One of the most important part of the creative process is communicating your work to others. At this point, I've given so
+	many presentations that they hardly phase me. Just last week, all the interns gave a midterm presentation of their progress
+	so far(even interns can't escape midterms!). Most of my presentations happen in the GVIS Lab, where we give tours of our facility weekly.</p>
+	<h2>And a <i>lot</i> of outreach</h2>
+		<p>Interacting with the community is a priority within the GVIS Lab! We visit schools, host events, and
+		bring our demonstrations to public venues weekly. Every Friday, we even partner with a local high school to host NASA club, where
+		we lead activites relating to data science, robotics, and the fusion of art and technology. </p>
+</p>
            
 			</div>
             </div>
@@ -182,7 +176,7 @@ in Florida. Submit those names <a href="https://mars.nasa.gov/mars2020/participa
 							<a class="nav-link" href="post4.html">NASA Missions: Artemis</a>
 						</li>
 						<li>
-							<a class="nav-link" href="post4.html">NASA Missions: Mars 2020 Rover</a>
+							<a class="nav-link" href="post5.html">NASA Missions: Mars 2020 Rover</a>
 						</li>
 						<li>
 							<a class="nav-link" href="post6.html">Halfway There</a>
@@ -215,7 +209,7 @@ in Florida. Submit those names <a href="https://mars.nasa.gov/mars2020/participa
 							<a class="nav-link" href="post4.html">NASA Missions: Artemis</a>
 						</li>
 						<li>
-							<a class="nav-link" href="post4.html">NASA Missions: Mars 2020 Rover</a>
+							<a class="nav-link" href="post5.html">NASA Missions: Mars 2020 Rover</a>
 						</li>
 						<li>
 							<a class="nav-link" href="post6.html">Halfway There</a>
